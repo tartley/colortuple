@@ -1,0 +1,44 @@
+colortuple
+==========
+
+A namedtuple for storing RGBA color values, along with a few simple methods
+for generating and modifying colors.
+
+The module also contains lots of named colors, e.g. SeaGreen = Color(1, 2, 3),
+taken from the xkcd color survey.
+
+Dependencies
+------------
+
+Any operating system. Tested on Python 2.7, but ought to work on 3.x.
+No other dependencies.
+
+Install
+-------
+
+::
+
+    pip install colortuple
+
+Known Problems
+--------------
+
+None.
+
+Thanks
+------
+
+Raymond Hettinger for named tuples.
+
+Contact
+-------
+
+:Documentation & download:
+    http://pypi.python.org/pypi/colortuple/
+
+:Souce code and issues:
+    https://github.com/tartley/colortuple/
+
+:Contact the author:
+    Jonathan Hartley, email: tartley at domain tartley.com, Twitter: @tartley.
+
