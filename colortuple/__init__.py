@@ -7,3 +7,5 @@ __version__ = '1.0.0rc1'
 # __doc__, __name__ &__version__ are seen by pydoc, read by setup.py,
 # and generate output for --help.
 
+from colortuple.colortuple import Color
+
