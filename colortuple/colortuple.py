@@ -18,7 +18,7 @@ class Color(namedtuple('__BaseColor', 'r g b a')):
 
         For example, to specify red color::
 
-            from gloopy.color import Color
+            from colortuple import Color
             red = Color(1, 0, 0)
 
         Or semi-transparent blue::
@@ -28,7 +28,7 @@ class Color(namedtuple('__BaseColor', 'r g b a')):
     Some predefined instances of Color provide named colors. These named colors
     are defined as attributes of the Color class::
 
-        from gloopy.color import Color
+        from colortuple import Color
         print Color.RoyalPurple
     
     The names and values are taken from the top 69 results of the xkcd color
@@ -163,7 +163,7 @@ Color.DarkGrey     = Color(0.251, 0.251, 0.251)
 
 Color.All = {
     name: value
-    for name, value in Color.__dict__.iteritems()
+    for name, value in Color.__dict__.items()
     if isinstance(value, Color)
 }
 
